@@ -5,10 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="10dp"
     tools:context=".MainActivity">
-
-    <com.xzy.view.androidcustomviewdemos.chapter1.BasicView
+    <Button
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:text="第一章：绘制基础测试"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>

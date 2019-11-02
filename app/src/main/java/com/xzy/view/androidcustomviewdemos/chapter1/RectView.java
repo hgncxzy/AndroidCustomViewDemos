@@ -13,17 +13,17 @@ import android.view.View;
 /**
  * 基本图形绘制
  */
-public class BasicView extends View {
+public class RectView extends View {
 
-    public BasicView(Context context) {
+    public RectView(Context context) {
         super(context);
     }
 
-    public BasicView(Context context, AttributeSet attrs) {
+    public RectView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public BasicView(Context context, AttributeSet attrs, int defStyle) {
+    public RectView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
@@ -35,25 +35,18 @@ public class BasicView extends View {
         paint.setColor(Color.RED); // 设置画笔颜色
         paint.setStyle(Paint.Style.STROKE); // 设置填充样式
         paint.setStrokeWidth(10); // 设置画笔宽度
-
-        // 画圆
-        canvas.drawCircle(390, 300, 150, paint);
-        // 画直线
-        canvas.drawLine(140, 50, 100, 150, paint);
-        // 画点
-        canvas.drawPoint(460, 460, paint);
         // 构造矩形 -- 直接构造制造
-        @SuppressLint("DrawAllocation") Rect rect1 = new Rect(10, 10, 100, 100);
+        paint.setColor(Color.DKGRAY);
+        paint.setStrokeWidth(10);
+        @SuppressLint("DrawAllocation") Rect rect1 = new Rect(100, 100, 400, 200);
         canvas.drawRect(rect1,paint);
         // 构造矩形 -- 间接构造
         @SuppressLint("DrawAllocation") Rect rect2 = new Rect();
-        rect2.set(290, 290, 200, 200);
+        rect2.set(100, 200, 300, 300);
         canvas.drawRect(rect2,paint);
         // 构造矩形 -- 使用 RectF 构造
-        @SuppressLint("DrawAllocation") RectF rectF = new RectF(210f,10f,300f,100f);
+        @SuppressLint("DrawAllocation") RectF rectF = new RectF(130f,300f,450f,400f);
         paint.setStyle(Paint.Style.FILL);
         canvas.drawRect(rectF,paint);
-
-
     }
 }
