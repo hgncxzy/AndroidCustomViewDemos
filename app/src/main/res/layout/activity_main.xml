@@ -11,7 +11,7 @@
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="第一章：绘制基础测试"
+        android:text="第一章：绘制基础"
         tools:ignore="HardcodedText" />
 
 </LinearLayout>

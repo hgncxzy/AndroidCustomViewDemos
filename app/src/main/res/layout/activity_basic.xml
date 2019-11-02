@@ -10,12 +10,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center|top"
         android:orientation="vertical"
         >
 
         <com.xzy.view.androidcustomviewdemos.chapter1.CircleView
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="150dp"
+            android:layout_gravity="center"/>
         <com.xzy.view.androidcustomviewdemos.chapter1.LineView
             android:layout_width="match_parent"
             android:layout_height="150dp" />
@@ -31,7 +34,15 @@
 
         <com.xzy.view.androidcustomviewdemos.chapter1.PathView
             android:layout_width="match_parent"
-            android:layout_height="400dp"/>
+            android:layout_height="300dp"/>
+
+        <com.xzy.view.androidcustomviewdemos.chapter1.RegionView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+        <com.xzy.view.androidcustomviewdemos.chapter1.CanvasView
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
     </LinearLayout>
 
 </ScrollView>
