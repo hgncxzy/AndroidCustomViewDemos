@@ -1,4 +1,4 @@
-package com.xzy.view.androidcustomviewdemos;
+package com.xzy.custom.widget;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.xzy.view.androidcustomviewdemos", appContext.getPackageName());
+        assertEquals("com.xzy.custom.widget", appContext.getPackageName());
     }
 }

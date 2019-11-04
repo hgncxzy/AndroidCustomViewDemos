@@ -1,4 +1,4 @@
-package com.xzy.view.androidcustomviewdemos.chapter1;
+package com.xzy.custom.widget.chapter1;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,17 +11,17 @@ import android.view.View;
 /**
  * 基本图形绘制
  */
-public class CircleView extends View {
+public class PointView extends View {
 
-    public CircleView(Context context) {
+    public PointView(Context context) {
         super(context);
     }
 
-    public CircleView(Context context, AttributeSet attrs) {
+    public PointView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public CircleView(Context context, AttributeSet attrs, int defStyle) {
+    public PointView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
@@ -32,9 +32,8 @@ public class CircleView extends View {
         @SuppressLint("DrawAllocation") Paint paint = new Paint();
         paint.setColor(Color.RED); // 设置画笔颜色
         paint.setStyle(Paint.Style.STROKE); // 设置填充样式
-        paint.setStrokeWidth(10); // 设置画笔宽度
-
-        // 画圆
-        canvas.drawCircle(150, 150, 100, paint);
+        paint.setStrokeWidth(50); // 设置画笔宽度
+        // 画点
+        canvas.drawPoint(100, 60, paint);
     }
 }

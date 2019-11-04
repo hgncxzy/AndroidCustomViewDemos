@@ -1,4 +1,4 @@
-package com.xzy.view.androidcustomviewdemos.chapter1;
+package com.xzy.custom.widget.chapter1;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

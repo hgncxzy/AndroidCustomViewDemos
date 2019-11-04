@@ -1,4 +1,4 @@
-package com.xzy.view.androidcustomviewdemos;
+package com.xzy.custom.widget;
 
 import org.junit.Test;
 

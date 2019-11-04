@@ -15,31 +15,31 @@
         android:orientation="vertical"
         >
 
-        <com.xzy.view.androidcustomviewdemos.chapter1.CircleView
+        <com.xzy.custom.widget.chapter1.CircleView
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="center"/>
-        <com.xzy.view.androidcustomviewdemos.chapter1.LineView
+        <com.xzy.custom.widget.chapter1.LineView
             android:layout_width="match_parent"
             android:layout_height="150dp" />
 
-        <com.xzy.view.androidcustomviewdemos.chapter1.PointView
+        <com.xzy.custom.widget.chapter1.PointView
             android:layout_width="match_parent"
             android:layout_height="50dp"
             />
 
-        <com.xzy.view.androidcustomviewdemos.chapter1.RectView
+        <com.xzy.custom.widget.chapter1.RectView
             android:layout_width="match_parent"
             android:layout_height="200dp" />
 
-        <com.xzy.view.androidcustomviewdemos.chapter1.PathView
+        <com.xzy.custom.widget.chapter1.PathView
             android:layout_width="match_parent"
             android:layout_height="300dp"/>
 
-        <com.xzy.view.androidcustomviewdemos.chapter1.RegionView
+        <com.xzy.custom.widget.chapter1.RegionView
             android:layout_width="match_parent"
             android:layout_height="300dp"/>
-        <com.xzy.view.androidcustomviewdemos.chapter1.CanvasView
+        <com.xzy.custom.widget.chapter1.CanvasView
             android:layout_width="match_parent"
             android:layout_height="300dp" />
 

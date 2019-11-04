@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".chapter2.ViewAnimationActivity"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/btn_scale"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="scale 标签-缩放动画" />
+
+    <Button
+        android:id="@+id/btn_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="alpha 标签-渐变透明度动画" />
+
+    <Button
+        android:id="@+id/btn_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="rotate 标签-转移旋转动画" />
+
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="translate 标签-位置移动动画" />
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="set 标签-容器类标签，用于定义动画集" />
+</LinearLayout>

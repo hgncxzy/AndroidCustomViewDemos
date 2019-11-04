@@ -1,4 +1,4 @@
-package com.xzy.view.androidcustomviewdemos;
+package com.xzy.custom.widget;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.xzy.view.androidcustomviewdemos.chapter1.BasicActivity;
+import com.xzy.custom.widget.chapter1.BasicActivity;
 
 public class MainActivity extends AppCompatActivity {
 
